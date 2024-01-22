@@ -19,8 +19,4 @@ public class StartApp {
         SpringApplication.run(StartApp.class, args);
     }
 
-//    @EventListener(ApplicationReadyEvent.class)
-//    public void sendEmail(UserRequest userRequest) {
-//        mailSenderService.send(userRequest);
-//    }
 }
